@@ -1,0 +1,6 @@
+svitlo.my_page:
+  path: '/homepage'
+  defaults:
+    _controller: '\Drupal\svitlo\Controller\SvitloController::home'
+  requirements:
+    _permission: 'access content'

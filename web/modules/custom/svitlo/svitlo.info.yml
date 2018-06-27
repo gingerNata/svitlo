@@ -1,0 +1,6 @@
+name: 'Svitlo custom module'
+description: 'Custom module for this site'
+type: module
+core: 8.x
+version: 0.1-dev
+package: Custom
