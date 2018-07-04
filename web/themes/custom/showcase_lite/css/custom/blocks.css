@@ -1,0 +1,37 @@
+#block-dodatiurok, #block-uroki, #block-dodativmist, #block-dodativmistcloned,
+#block-dodatiknigu, #block-navchalniplani{
+    display: inline-block;
+}
+
+.add-btn:before{
+    font-family: "FontAwesome";
+    content: '\f067';
+    display: inline-block;
+    margin-right: 10px;
+}
+.back-btn:before{
+    font-family: "FontAwesome";
+    content: '\f0ca';
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.btn-check:after{
+    font-family: "FontAwesome";
+    font-size: 18px;
+    content: '\f06a';
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#block-tabs{
+    padding-bottom: 0;
+}
+
+.layout__region{
+    padding: 20px;
+}
+
+.block-facets{
+    margin-bottom: 50px;
+}

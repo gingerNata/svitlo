@@ -4,7 +4,8 @@
  */
 .field--entity-reference-target-type-taxonomy-term,
 .field--entity-reference-target-type-taxonomy-term.field__item {
-  margin: 40px 0;
+  /*margin: 40px 0;*/
+  margin: 0;
 }
 .field--entity-reference-target-type-taxonomy-term + .field--entity-reference-target-type-taxonomy-term {
   margin-top: 0;

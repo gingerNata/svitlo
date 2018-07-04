@@ -9,7 +9,7 @@
 }
 .logo {
   float: left;
-  margin-right: 10px;
+  /*margin-right: 10px;*/
   display: inline-block;
 }
 .logo-centered {

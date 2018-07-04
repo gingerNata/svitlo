@@ -92,11 +92,12 @@
           {% endif %}
           {{ title_suffix }}
           {% if display_submitted %}
+            {% set date = node.createdtime|format_date('short') %}
             <div class="node__meta">
               {{ author_picture }}
               <span{{ author_attributes.addClass('node__submitted-info') }}>
                 {% trans %}
-                  <span class="node__submitted-info-text">By</span> {{ author_name }} on
+                  <span class="node__submitted-info-text">By</span> {{ author_name }}
                   <span class="node__submitted-date">
                     {{ date }}
                   </span>

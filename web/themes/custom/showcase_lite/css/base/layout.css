@@ -476,7 +476,8 @@
 }
 @media (min-width: 992px) {
   .page-container-border-enabled .page-container {
-    border-width: 15px;
+    /*border-width: 15px;*/
+    border-width: 1px;
   }
   .page-container-border-enabled .page-container > div,
   .page-container-border-enabled .page-container > .footer {

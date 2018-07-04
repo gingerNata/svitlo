@@ -69,8 +69,10 @@ global-styling:
       css/components/menu.css: {}
       css/components/username.css: {}
       css/components/views.css: {}
+    custom:
       css/custom/pages.css: {}
       css/custom/menu.css: {}
+      css/custom/blocks.css: {}
 
 to-top:
   version: VERSION

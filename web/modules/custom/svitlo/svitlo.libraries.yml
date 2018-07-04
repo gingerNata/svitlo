@@ -1,0 +1,9 @@
+svitlo:
+  js:
+    js/read_more.js: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.once
+  css:
+    base:
+      css/read_more.css: {}

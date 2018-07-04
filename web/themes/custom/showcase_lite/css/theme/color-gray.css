@@ -10,7 +10,7 @@
 /* base: elements */
 a {
   /*color: #505050;*/
-  color: #DE4D00;
+  color: #2980b9;
 }
 a:hover,
 a:focus {
@@ -171,7 +171,7 @@ a.button.button--hover-style-2:before,
 /* components: comment */
 .node .comment ul.links li a {
   /*color: #505050;*/
-  color: #DE4D00;
+  color: #2980b9;
 }
 .node .comment ul.links li a:hover {
   color: #373737;
@@ -225,7 +225,7 @@ a.button.button--hover-style-2:before,
 /* components: featured linked text tiles block */
 .region--light-typography .featured-linked-text-tile__body a {
   /*color: #505050;*/
-  color: #DE4D00;
+  color: #2980b9;
 }
 .region--light-typography .featured-linked-text-tile__body a:hover {
   color: #373737;
@@ -261,7 +261,7 @@ a.button.button--hover-style-2:before,
 .field--entity-reference-target-type-taxonomy-term .field__item a,
 .field--entity-reference-target-type-taxonomy-term.field__item a {
   /*color: #373737;*/
-  color: #DE4D00;
+  color: #2980b9;
 }
 .field--entity-reference-target-type-taxonomy-term .field__item a:hover,
 .field--entity-reference-target-type-taxonomy-term.field__item a:hover {
@@ -289,11 +289,11 @@ a.button.button--hover-style-2:before,
 /* components: layout switcher */
 .layout-switcher ul li a {
   /*color: #505050;*/
-  color: #DE4D00;
+  color: #2980b9;
 }
 .layout-switcher ul li.active a {
   /*color: #373737;*/
-  color: #DE4D00;
+  color: #2980b9;
 }
 
 /* components: menu */

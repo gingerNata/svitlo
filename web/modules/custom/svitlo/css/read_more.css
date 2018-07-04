@@ -1,0 +1,15 @@
+.hidden-text{
+    display: none;
+}
+.arrow-down:after{
+    font-family: "FontAwesome";
+    font-weight: 800;
+    content: '\f107';
+    margin: 0 7px;
+}
+.arrow-top:after{
+    font-family: "FontAwesome";
+    font-weight: 800;
+    content: '\f106';
+    margin: 0 7px;
+}

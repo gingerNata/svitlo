@@ -1,6 +1,84 @@
+/************************ LESSONS ************************/
 .lessons .view-filters{
     float: left;
 }
 .lessons .form-item{
     display: block;
+}
+.field--name-field-pictures.field--type-entity-reference .field__item{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.field--name-field-bible-truth.field--label-above .field__label:after{
+    content: ':';
+}
+.field--name-field-zolotiy-virsh.field--label-above .field__label:after{
+    content: ':';
+}
+.field--name-field-items.field--label-above .field__label:after{
+    content: ':';
+}
+.field--name-field-svyatkova-podiya.field--label-above .field__label:after{
+    content: ':';
+}
+.field--name-field-age.field--label-above .field__label:after{
+    content: ':';
+}
+
+/************************ IMAGES ************************/
+.images-view .views-row{
+    display: inline-block;
+}
+
+
+/************************ VIDEO ************************/
+.video-view .form-item{
+    display: inline-block;
+}
+.video-view .form-actions{
+    display: inline-block;
+    padding-top: 18px;
+}
+.video-view .form-actions input{
+    font-size: 0;
+    height: 47px;
+    width: 10px;
+    background-image: url("../../images/icons8-search-30.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.video-view .views-row{
+    text-align: center;
+}
+
+/************************ HANDMATE ************************/
+.handmate-view .arrows-right span:after{
+    font-family: "FontAwesome";
+    content: '\f101';
+    margin: 0 5px 0 10px;
+}
+
+.views-field-title-1{
+    text-align: right;
+}
+
+/************************ PLAY NODE ************************/
+.page-node-type-play .field__items .field__item{
+    display: inline;
+}
+.page-node-type-play .field__items .field__item:after{
+    content: ',';
+}
+.page-node-type-play .field--name-body{
+    clear: both;
+}
+
+/************************ PLAY ************************/
+.plays .views-field-body{
+    color: #777777;
+    padding-left: 20px;
+}
+.plays .views-field-title{
+    font-weight: 600;
 }

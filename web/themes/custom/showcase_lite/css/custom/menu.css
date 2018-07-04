@@ -4,7 +4,7 @@
     text-align: center;
 }
 .path-frontpage  .main-menu li a{
-    color: white;
+    color: #2980b9;
     text-align: center;
     font-size: 20px;
     width: 310px;
@@ -16,8 +16,19 @@
     position: relative;
     bottom: 0;
 }
+/*menu arrows*/
+#block-showcase-lite-main-menu ul.menu li > a:before {
+    font-family: "FontAwesome";
+    content: "\f105";
+    position: absolute;
+    left: 0;
+    top: 9px;
+    font-size: 12px;
+}
 .path-frontpage  .main-menu li a:hover{
-    background: #DE4D00;
+    background: #2980b9;
+    color: white;
+    /*background: #2874a7;*/
 }
 #block-showcase-lite-main-menu .main-menu li{
     text-align: left;
@@ -28,12 +39,23 @@
 }
 .path-frontpage .main-content__section{
     padding: 30px 0 50px;
-    background: #505050;
+    background: #fff;
 }
 .path-frontpage .banner__container{
     display: none;
 }
 .path-frontpage  .lessons:before{
+    content: "";
+    display: block;
+    background: url("../../images/main-menu/icons8-training-50 (1).png") no-repeat center;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 30px;
+    left: 128px;
+}
+.path-frontpage  .lessons:hover:before{
     content: "";
     display: block;
     background: url("../../images/main-menu/icons8-training-50.png") no-repeat center;
@@ -44,7 +66,7 @@
     top: 30px;
     left: 128px;
 }
-.path-frontpage  .plans:before{
+.path-frontpage  .plans:hover:before{
     content: "";
     display: block;
     background: url("../../images/main-menu/icons8-books-50.png") no-repeat center;
@@ -55,7 +77,18 @@
     top: 30px;
     left: 128px;
 }
-.path-frontpage  .for-teachers:before{
+.path-frontpage  .plans:before{
+    content: "";
+    display: block;
+    background: url("../../images/main-menu/icons8-books-50 (1).png") no-repeat center;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 30px;
+    left: 128px;
+}
+.path-frontpage  .for-teachers:hover:before{
     content: "";
     display: block;
     background: url("../../images/main-menu/icons8-meditation-50.png") no-repeat center;
@@ -66,7 +99,18 @@
     top: 30px;
     left: 128px;
 }
-.path-frontpage  .news:before{
+.path-frontpage  .for-teachers:before{
+    content: "";
+    display: block;
+    background: url("../../images/main-menu/icons8-meditation-50 (1).png") no-repeat center;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 30px;
+    left: 128px;
+}
+.path-frontpage  .news:hover:before{
     content: "";
     display: block;
     background: url("../../images/main-menu/icons8-news-50.png") no-repeat center;
@@ -77,7 +121,18 @@
     top: 30px;
     left: 128px;
 }
-.path-frontpage .images:before{
+.path-frontpage  .news:before{
+    content: "";
+    display: block;
+    background: url("../../images/main-menu/icons8-news-50 (1).png") no-repeat center;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 30px;
+    left: 128px;
+}
+.path-frontpage .images:hover:before{
     content: "";
     display: block;
     background: url("../../images/main-menu/icons8-gallery-64.png") no-repeat center;
@@ -88,7 +143,18 @@
     top: 30px;
     left: 128px;
 }
-.path-frontpage .games:before{
+.path-frontpage .images:before{
+    content: "";
+    display: block;
+    background: url("../../images/main-menu/icons8-gallery-64 (1).png") no-repeat center;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 30px;
+    left: 128px;
+}
+.path-frontpage .games:hover:before{
     content: "";
     display: block;
     background: url("../../images/main-menu/icons8-soccer-50.png") no-repeat center;
@@ -99,7 +165,18 @@
     top: 30px;
     left: 128px;
 }
-.path-frontpage .videos:before{
+.path-frontpage .games:before{
+    content: "";
+    display: block;
+    background: url("../../images/main-menu/icons8-soccer-50 (1).png") no-repeat center;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 30px;
+    left: 128px;
+}
+.path-frontpage .videos:hover:before{
     content: "";
     display: block;
     background: url("../../images/main-menu/icons8-video-playlist-50.png") no-repeat center;
@@ -110,7 +187,18 @@
     top: 30px;
     left: 128px;
 }
-.path-frontpage .poems:before{
+.path-frontpage .videos:before{
+    content: "";
+    display: block;
+    background: url("../../images/main-menu/icons8-video-playlist-50 (1).png") no-repeat center;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 30px;
+    left: 128px;
+}
+.path-frontpage .poems:hover:before{
     content: "";
     display: block;
     background: url("../../images/main-menu/script.png") no-repeat center;
@@ -121,7 +209,18 @@
     top: 30px;
     left: 128px;
 }
-.path-frontpage .books:before{
+.path-frontpage .poems:before{
+    content: "";
+    display: block;
+    background: url("../../images/main-menu/script (1).png") no-repeat center;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 30px;
+    left: 128px;
+}
+.path-frontpage .books:hover:before{
     content: "";
     display: block;
     background: url("../../images/main-menu/icons8-books-64.png") no-repeat center;
@@ -132,7 +231,18 @@
     top: 30px;
     left: 128px;
 }
-.path-frontpage .music:before{
+.path-frontpage .books:before{
+    content: "";
+    display: block;
+    background: url("../../images/main-menu/icons8-books-64 (1).png") no-repeat center;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 30px;
+    left: 128px;
+}
+.path-frontpage .music:hover:before{
     content: "";
     display: block;
     background: url("../../images/main-menu/icons8-musical-notes-50.png") no-repeat center;
@@ -143,7 +253,18 @@
     top: 30px;
     left: 128px;
 }
-.path-frontpage .stories:before{
+.path-frontpage .music:before{
+    content: "";
+    display: block;
+    background: url("../../images/main-menu/icons8-musical-notes-50 (1).png") no-repeat center;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 30px;
+    left: 128px;
+}
+.path-frontpage .stories:hover:before{
     content: "";
     display: block;
     background: url("../../images/main-menu/teaching.png") no-repeat center;
@@ -154,7 +275,18 @@
     top: 30px;
     left: 128px;
 }
-.path-frontpage .handmate:before{
+.path-frontpage .stories:before{
+    content: "";
+    display: block;
+    background: url("../../images/main-menu/student (1).png") no-repeat center;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 30px;
+    left: 128px;
+}
+.path-frontpage .handmate:hover:before{
     content: "";
     display: block;
     background: url("../../images/main-menu/icons8-cut-64.png") no-repeat center;
@@ -165,10 +297,32 @@
     top: 30px;
     left: 128px;
 }
-.path-frontpage .plays:before{
+.path-frontpage .handmate:before{
+    content: "";
+    display: block;
+    background: url("../../images/main-menu/icons8-cut-64 (1).png") no-repeat center;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 30px;
+    left: 128px;
+}
+.path-frontpage .plays:hover:before{
     content: "";
     display: block;
     background: url("../../images/main-menu/icons8-theatre-mask-50.png") no-repeat center;
+    background-size: contain;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 30px;
+    left: 128px;
+}
+.path-frontpage .plays:before{
+    content: "";
+    display: block;
+    background: url("../../images/main-menu/icons8-theatre-mask-50 (1).png") no-repeat center;
     background-size: contain;
     height: 50px;
     width: 50px;
